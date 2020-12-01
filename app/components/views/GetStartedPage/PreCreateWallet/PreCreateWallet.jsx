@@ -146,7 +146,6 @@ const PreCreateWallet = ({
     isPrivacy
   ]);
 
-
   const onChangeCreateWalletMasterPubKey = useCallback(
     async (walletMasterPubKey) => {
       if (walletMasterPubKey === "") {
